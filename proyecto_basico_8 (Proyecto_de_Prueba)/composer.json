@@ -1,5 +1,6 @@
 {
     "name": "javierluque/validate",
+    "description": "Proyecto de Validación", 
     "autoload": {
         "psr-4": {
             "App\\": "src/"
