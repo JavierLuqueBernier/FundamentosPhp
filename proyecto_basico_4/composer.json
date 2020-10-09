@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "files": [
+            "src/files1.php",
+            "src/files2.php"
+        ],
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "Text\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    }
+}

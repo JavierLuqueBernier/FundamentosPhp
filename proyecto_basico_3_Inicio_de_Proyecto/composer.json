@@ -1,0 +1,12 @@
+{
+    "name": "alaga/proyecto_basico_3_inicio_de_proyecto",
+    "description": "Ejemplo Composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "^2.41"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "license": "MIT"
+}
