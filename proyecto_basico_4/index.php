@@ -1,22 +1,15 @@
 <?php
 
-/* echo 'Un texto de una sola linea'; */
+echo 'Un texto de una sola línea';
 
 $name = 'Javier';
-echo "Mi nombre es $name <br>"; /* Esto es igual que */ echo 'Mi nombre es ' . $name . '<br>';
+echo "Mi nombre es $name <br>"; /* esto es lo mismo que */ echo 'Mi nombre es ' . $name;
 
 $courses = [
-    'backend' = [
+    'backend' => [
         'PHP',
         'Laravel'
     ]
 ];
 
-class User {
-    public $name = 'italo';
-}
-
-$user = new User;
-
-echo "$user->name quiere aprender {$courses['backend'] [0]}";
-
+echo "{$courses['backend'] [0]}";
