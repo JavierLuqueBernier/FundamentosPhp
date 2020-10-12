@@ -2,6 +2,18 @@
 
 namespace App;
 
-class Post extends Model{
+class Post{
+    protected $comments = [];
 
+    public function addComment($comment) {
+        $this->comment[] = $comment;
+    }
+
+    public function countComments() {
+        return count($this->comments);
+    }
+
+    public function getComments() {
+        return $this->comments;
+    }
 }

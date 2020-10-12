@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use App\Post;
+use App\Post;                       //El problema está aqui, por el motivo que sea, este use, no encuentra la clase Post creada en Post.php
 use App\Comment;
 
 class PostTest extends TestCase {
